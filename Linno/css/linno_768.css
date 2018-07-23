@@ -1,0 +1,181 @@
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .all_menu{ float:right; margin-top:30px;width:45px;height:35px;
+position:relative; cursor:pointer;}
+
+.line-ico {width:50px; height:20%; background-color:#333; border-radius: 16px;
+transition: all 1s;}
+
+.line-one { top:0;position:absolute; }
+.line-two {top:40%;position:absolute; }
+.line-thr { bottom:0%;position:absolute; }
+    /*메뉴아이콘*/
+    
+    .lang_add {position:absolute; top:40px; right:0;}
+    .lang_add > .lang > a > img{display: block; width:25px; height:18px;}/*영국국기img*/
+   /*background-menu*/
+   
+    .b_menu {width:100%;position:absolute;height:282px; background-color:black;top:0;z-index:999;}
+    .b_menu li{border-bottom:0.001rem solid gray; height:47px;
+    text-indent: 30px;}
+    .b_menu li a {color:#eee;font-size:1rem;line-height: 45px;font-weight: bold; display:block;}
+    
+    .b_menu li a:hover {color:#00976c;}
+    .half_li {text-align:center; }
+    .half_li span {float:left;width:50%;display:block;}
+    .half_li span img {width:15px;margin-right:10px;}
+
+    /*js용*/
+    
+    .header{width:100%; background-color:#eee;height:100px;}
+    
+    .header_left {width:55%; margin-left:5%; 
+    height:100px; float:left;}
+    .main_logo img{float:left;width:60px;margin:10px}
+    .m_menu {display:none; }
+    .m_menu li{display:none;  }
+    .m_menu li a{display:none; }
+    /*.m_menu li a:hover {color:#00976c;border-bottom: 5px solid #00976c;} 제이쿼리로 구현*/
+    
+    .header_right {width:30%; height:100px; float:right;margin-right:5%; position:relative;}
+    
+    .header_right p {margin:20px 10px 0 0;}
+    
+    .family{ display:none;}
+    .family a {display:none;}
+    .lang {display:none;}
+    .lang a {display:none;}
+    .lang span{display:none;}
+    .flag {display:none;}
+    
+    /*benner*/
+#banner_wrap { margin-left:5%; width:90%; height:816px; 
+    position:relative;}
+#btn_wrap{float:right; height:20px;position:absolute; bottom:10px; left:10px;z-index: 99;}
+#btn_wrap li{float:left;background:url(../img/btn_off.png)no-repeat left center; width:40px; height:10px;
+	overflow:hidden; margin-left:8px; }
+#btn_wrap li.on{background-image:url(../img/btn_on.png);}
+#btn_wrap li a {width:40px; height:10px; display:block; text-indent:-9999px;}
+
+
+#banner_img{clear:both; width:100%; height:816px; overflow:hidden;}
+#banner_img ul {width:100%; height:816px; position:relative;}
+#banner_img ul li {width:100%; height:816px; position:absolute;}
+#banner_img ul li.banner_0 {background:url(../img/banner1.jpg)no-repeat; left:0; top:0; background-size:cover;}
+#banner_img ul li.banner_1 {background:url(../img/banner2.jpg)no-repeat; left:100%; top:0; background-size:cover;}
+#banner_img ul li.banner_2 {background:url(../img/banner3.jpg)no-repeat; left:200%; top:0; background-size:cover;}
+
+#banner_img ul li a{width:90%; height:816px; display:block; text-indent:-9999px;}
+    
+    .banner_h {position:absolute; top:50px; left:100px; z-index: 99; color:#fff; font-size:60px; line-height:65px;}
+    .banner_h1 {font-weight: bold;letter-spacing: 1px;}
+    
+    .contanir {position:absolute; z-index: 99; color:#eee; font-size:1rem;width:550px; font-weight: 700; line-height: 26px;
+    margin-left:100px; top:200px; display: inline-block;}
+    
+    .banner_btn a{color:#fff;display:block;border:4px solid #fff; width:120px;text-align:center; padding:10px 30px;margin-top:30px;}
+    
+    
+    
+    .mid1_wrap {height:3000px; width:90%;margin:5% 5%;background-position: center; overflow: hidden;}
+    .box_total{float:left;height:3000px; width:100%; overflow: hidden;}
+    .box {width:100%;height:750px; float:left; cursor:pointer;  position:relative; }
+    .one { color:#ddd; }
+    .box1 {background:url(../img/mid1_1.jpg)no-repeat;
+   background-size:cover;width:100%; height:750px;}
+    .box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+        -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+    
+   }
+    
+
+    .two {color:#333; overflow: hidden; }
+    .thr { color:#333; overflow: hidden; }
+    .fou { color:#ddd; overflow: hidden; }
+    .box h1 { position:absolute; width:70%; top:10%; text-align: center;left:15%;font-size:2rem;}
+    .box h5 {width:80%; left:10%; top:20%; text-align: center; font-size:0.8rem; position:absolute; }
+    
+    .box2 {float:left;width:100%;height:750px;  background:url(../img/mid1_2.jpg)no-repeat;
+    background-size:cover; background-position: center;
+    cursor:pointer;}
+     .box3 {float:left;width:100%;height:750px;  background:url(../img/mid1_3.jpg)no-repeat;
+    background-size:cover; background-position: center;
+    cursor:pointer;}
+     .box4 {float:left;width:100%;height:750px;  background:url(../img/mid1_4.jpg)no-repeat;
+    background-size:cover; background-position: center;
+    cursor:pointer;}
+    
+    
+    .box_long {float:left;width:100%; height:750px; position:relative; overflow:hidden;cursor:pointer;}
+    .box_long1 {width:100%; height:100%; background:url(../img/mid2.jpg)no-repeat; background-size:cover;background-position: center;
+    background-attachment: fixed;}
+    .box_long h1 { position:absolute; width:80%; top:40%; text-align: center;left:10%;font-size:2.5rem;}
+    .box_long h5 {width:80%; left:10%; top:50%; text-align: center; font-size:1.2rem; position:absolute; }
+    
+    
+    .mid2 {width:90%; margin:10% 5%;height:300px;float:left;}
+    .mid2 h1{font-size:3rem; height:50px; line-height:50px;}
+    .mid_txt {font-size:0.9rem;width:450px;line-height:20px;margin:30px 0 100px 0;}
+    .mid2 .mid2_btn a{padding:10px; border:1px solid #333;width:400px; height:50px;text-align:center;line-height:50px;display:block;font-size:0.9rem; font-weight:bold;color:#333;letter-spacing: 0.5rem;}
+    
+    .mid3 {width:90%; height:1000px; margin:0 5%; float:left;
+   }
+ 
+    
+    .data {width:150px; height:40px; 
+    font-size:1rem; color:#eee; text-align:center; line-height:40px; background-color:#00976c;position:absolute; top:50px;}
+    .mid3 h1{font-size:3rem; height:50px; line-height:50px;}
+    
+    .news_bac {width:100%; height:100%; } 
+    .back1 {background:url(../img/dbcut.png)no-repeat;
+    background-size:cover; background-position: 50% 35%;}
+     .back2 {background:url(../img/qq.png)no-repeat;
+    background-size:cover; background-position: 50% 35%;}
+     .back3 {background:url(../img/inter.png)no-repeat;
+    background-size:cover; background-position: 50% 20%;}
+    .news {width:100%; height:250px;  
+     position:relative;   }
+    .news h2{font-size:1.5rem; position:absolute; top:150px;}
+    .c1{cursor:pointer;}
+    .c2 {background-color:#fff; cursor:pointer;}
+    .c3{cursor:pointer;}
+   
+    
+    .mid4{width:90%; height:1000px; margin:10% 5%;float:left;}
+    .mid4_box {float:left; width:50%;}
+    .mid4 h1{margin-bottom: 100px;; font-size:3rem; height:50px; line-height:50px;}
+    .mid4_box h3 {font-size:2rem;height:30px; line-height:30px; margin:50px 0 30px 0;
+    display:inline-block; height:60px; border-bottom:4px solid #00976c;}
+   
+.mid4_contents {width:100%; height:240px; margin-top:50px;}
+.mid4_contents li {height:30px; line-height:30px; font-size:1rem;}
+.mid4_contents li a {color:#00976c; font-size:1rem;font-weight: bold;}
+.mid4_contents li span {font-size:1rem; color:#333; font-weight: bold;}
+
+    
+    /*하단*/
+footer {width:100%; height:550px;float: left; background-color: #252531;}
+.bottom {width:90%; margin:0 5%;height:450px;}
+.bot_logo {margin:50px 50px 0 0;float:left;width:100%;}
+
+
+.last_wrap {float:left; width:90%; margin:40px auto 0 auto; }
+    
+    .bot_menu {float:left;width:25%;margin-top:50px;}
+    
+    .bot_menu li:not(.bot_menu_h) {color:#eee;height:30px;font-size:0.9rem;line-height:30px; }
+    .bot_menu1 {width:23%;}
+    .bot_menu2 {width:27%;}
+    .bot_menu li a{color:#eee;}
+    .bot_menu_h {font-size:1.4rem;height:50px;color:#eee;font-weight:bold;}
+.copy {float:left; font-size:0.8rem; text-align:center; color:#eee; line-height:20px;color:#bebebe;width:60%; margin:30px 20% 0 20%;} 
+    
+}
