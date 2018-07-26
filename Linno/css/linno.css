@@ -1,16 +1,8 @@
 @charset "utf-8";
 
 a{ text-decoration:none; color:#333;}
-body{font:normal 12px/1.5em nanum,sans-serif; color:#333333;
+body{font:normal 12px/1.5em 'Nanum Gothic',sans-serif; color:#333333;
 background-color:#ebebeb;}
-
-@font-face{
-		font-family:nanum;
-		src:url('../font/NanumGothic.eot');
-		src:url('../font/NanumGothic.eot?#iefix')format('embedded-opentype'),
-			url('../font/NanumGothic.ttf')format('truetype'),
-			url('../font/NanumGothic.woff')format('woff');
-}
 
 
 
