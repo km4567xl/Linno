@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Linno</title>
-    <!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<![endif]-->
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +12,13 @@
     <link rel="stylesheet" href="css/NanumGothic.css">
     <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/linno.css">
+     <link rel="stylesheet" href="css/linno_1025.css">
     
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="js/linno.js"></script>
 
 </head>
 
@@ -26,12 +26,16 @@
 
     <header class="header">
         <div class="header_inner">
+            
             <h1 class="nav_logo_wrap">
             <a href="#"><img src="img/main_logo.png" alt="린노 로고"></a>
         </h1>
             <!--logo_wrap-->
-            <nav class="nav_left_wrap">
-
+             <div class="menu_ico_wrap nav_btn_on">
+              <span class="menu_ico"></span>
+              </div><!--menu_ico-->
+              
+               <nav class="nav_wrap nav_btn_on">
                 <ul class="nav_main">
                     <li><a href="#">회사소개</a></li>
                     <li><a href="#">제품</a></li>
@@ -40,35 +44,16 @@
                     <li><a href="#">고객 서비스</a></li>
                 </ul>
                 <!--nav_main-->
-            </nav>
-            <!--nav_left_wrap-->
-
-            <div class="nav_right_wrap">
-                <!--의미적-->
-                <div class="nav_ico">
-                    <div class="line_ico line_top"></div>
-                    <div class="line_ico line_mid"></div>
-                    <div class="line_ico line_bot"></div>
-                </div>
-                <!--nav_ico-->
-
-                <div class="familysite_item_wrap">
-                    <a href="#" class="familysite">FAMILY SITE </a>
-                </div><!--familysite_item_wrap-->
-
                 <div class="lang_item_wrap">
-                   <a href="javascript:" class="lang_cur">KOREA</a>
-                    <ul class="lang_item_list">
-                        
-                        <li class="lang_item eng"><a href="#" >ENGLISH</a></li>
-                    </ul>
-                        
-                
+                    <a href="javascript:" class="lang_kor">KOREA</a>
+                    <a href="#" class="lang_eng" >ENGLISH</a>
                 </div><!--lang_item_wrap-->
                 
-
-            </div>
-            <!--right_nav_wrap-->
+                <div class="familysite_item_wrap">
+                    <a href="#" class="familysite">FAMILY SITE</a>
+                </div><!--familysite_item_wrap-->
+                
+            </nav>
         </div><!--header_inner-->
     </header>
     <!--header-->
@@ -112,10 +97,11 @@
             <section class="box_content_wrap">
 
                 <div class="box_content box_1">
-                    
+                     <!--a태그 추가-->
                     <p class="title white">LINNO INFINITY</p>
                     <p class="sub_title white">합리적인 가격에 라인 조명 완제품을 구매하세요.</p>
                     <a href="#" class="box_content_btn"><p>READ MORE</p></a>
+                    
                 </div>
                 <!--box box_1-->
 
@@ -173,12 +159,13 @@
                     <ul>
                         <li class="news_content news_content1">
                            
-                            <time class="news_date">4월 14,2018</time>
+                            <time datetime="2018-04-14" class="news_date">4월 14,2018</time>
                             <p class="news_content_title">
-                            <a href="#" class="news_cont_white ">linno 홈페이지 웹사이트 소개 커뮤니티 '디비컷' 선정</a></p>
+                            <a href="#" class="news_txt_white ">linno 홈페이지 웹사이트 소개 커뮤니티 '디비컷' 선정</a></p>
+                            
                             <div class="news_content_txt">
-                            <span class="news_txt_whith news_in">IN<a href="#" class="news_txt_whith "> 분류되지않음</a></span>
-                            <span class="news_txt_whith news_in">BY<a href="#" class="news_txt_whith ">ds.park</a></span>
+                            <span class="news_txt_white news_in">IN<a href="#" class="news_txt_white"> 분류되지않음</a></span>
+                            <span class="news_txt_white news_in">BY<a href="#" class="news_txt_white ">ds.park</a></span>
                             </div>
                         
 
@@ -186,18 +173,23 @@
 
                         <li class="news_content news_content2">
                            
-                            <time class="news_date">4월 14,2018</time>
-                            <p class="news_content_title">유한대학교 실내디자인학과 특강</p>
-                            <span class="news_in"><a href="">IN Linno</a></span>
-                            <span class="news_by"><a href="">BY ds.park</a></span>
+                            <time datetime="2018-04-14" class="news_date">4월 14,2018</time>
+                            <p class="news_content_title"><a href="#" class="news_txt_white">유한대학교 실내디자인학과 특강</a></p>
+                         
+                            <div class="news_content_txt">
+                            <span class="news_txt_white news_in">IN<a href="#" class="news_txt_white news_in"> 분류되지않음</a></span>
+                            <span class="news_txt_white news_in">BY<a href="#" class="news_txt_white news_in">ds.park</a></span>
+                            </div>
                         </li>
 
                         <li class="news_content news_content3">
                             <div class="content_bac_imgs bac_img1"></div>
-                            <time class="news_date">4월 14,2018</time>
-                            <p class="news_content_title">INTERIORS 2018 4월호 공개</p>
-                            <p class="news_in"><a href=""><span class="news_txt_whith">IN</span> 분류되지않음</a></p>
-                            <p class="news_by"><a href=""><span style="color:#333;">BY</span> ds.park</a></p>
+                            <time datetime="2018-04-14" class="news_date">4월 14,2018</time>
+                            <p class="news_content_title"><a href="#" class="news_txt_white">INTERIORS 2018 4월호 공개</a></p>
+                           <div class="news_content_txt">
+                            <span class="news_txt_white news_in">IN<a href="#" class="news_txt_white"> 분류되지않음</a></span>
+                            <span class="news_txt_white news_in">BY<a href="#" class="news_txt_white ">ds.park</a></span>
+                            </div>
                         </li>
                     </ul>
 
@@ -324,9 +316,9 @@
 
         </div>
         <!--bot_inner-->
-        <copy class="copy_wrap">
+        <div class="copy_wrap">
             &copy; 2018 LINNO. All Rights Reserved. Created by Etemmu Studio.
-        </copy>
+        </div>
 
     </footer>
 
