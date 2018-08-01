@@ -5,7 +5,7 @@
 .lang_item_wrap:hover .lang_item_list{display: block;}
 }
 
-@media screen and (max-width: 1279px) and (min-width: 1025px){
+@media screen and (max-width: 1279px){
     
     .header_inner {position: relative;}
     
@@ -18,7 +18,7 @@
     .menu_ico_wrap:hover .menu_ico::after { background-color:#00967c;}
     .menu_ico_wrap.nav_btn_on .menu_ico {background:transparent;transition: .5s;}
     .menu_ico_wrap.nav_btn_on .menu_ico::before {transform: translateY(12px) rotate(-45deg); transition: .5s;}
-     .menu_ico_wrap.nav_btn_on .menu_ico::after {transform: translateY(-12px) rotate(45deg); transition: .5s;}
+    .menu_ico_wrap.nav_btn_on .menu_ico::after {transform: translateY(-12px) rotate(45deg); transition: .5s;}
     
     
     .nav_wrap{display:none; position:absolute; top:100%; left:0; width:100%;  color:#eee; }
@@ -28,13 +28,13 @@
     .nav_main li a{ float: none; padding:20px;  height:auto;
     text-indent: 10px; font-weight:bold; font-size:14px; letter-spacing: 2px; color:#eee;}
     .nav_main li a::after {display:none;}
-    .familysite_item_wrap {display: none; }
-    .lang_item_wrap {float: none; margin:0; }
-    .lang_kor { float:left; position: static; width:50%; margin:auto; padding:20px; background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold;   }
-    .lang_kor::after {display: none; }
-    .lang_eng { opacity: 1; float:left; position: static; width:50%; margin:auto; padding:20px;  background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold; transition: .3s;   }
-    .lang_eng::after {display: none;}
-    .lang_eng:hover{color:#00976c;}
+    .nav_wrap .familysite_item_wrap {display: none; }
+    .nav_wrap .lang_item_wrap {float: none; margin:0; }
+    .nav_wrap .lang_kor { float:left; position: static; width:50%; margin:auto; padding:20px; background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold;   }
+    .nav_wrap .lang_kor::after {display: none; }
+    .nav_wrap .lang_eng { opacity: 1; float:left; position: static; width:50%; margin:auto; padding:20px;  background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold; transition: .3s;   }
+    .nav_wrap .lang_eng::after {display: none;}
+    .nav_wrap .lang_eng:hover{color:#00976c;}
 
    
     
