@@ -19,9 +19,9 @@ ul,li,p,section{box-sizing: border-box;}
 .nav_main li a::after {content:''; display: block; padding-top:15px; border-bottom:3px solid #00976c; opacity: 0; transition: .3s; }
 .nav_main li a:hover { color:#00976c; }
 .nav_main li a:hover::after {opacity: 1;} 
+
 .nav_wrap .familysite_item_wrap {float:right; margin-top:30px; }
-.nav_wrap .familysite_item_wrap .familysite {display:block; width:140px; padding: 5px 10px; text-align: center; box-sizing: border-box; border: 1px solid transparent; text-align: left; background:url(../img/down.png)no-repeat 90% 50%;
-}
+.nav_wrap .familysite_item_wrap .familysite {display:block; width:140px; padding: 5px 10px; text-align: center; box-sizing: border-box; border: 1px solid transparent; text-align: left; background:url(../img/down.png)no-repeat 90% 50%; }
 .nav_wrap .lang_item_wrap { float:right; margin-top:30px;position:relative;  }
 .nav_wrap .lang_kor {display:block; width:140px; padding: 5px 10px; 
 text-align: center; box-sizing: border-box; border: 1px solid transparent; background: url(../img/korea.png) 10px 50% no-repeat; }
@@ -57,6 +57,7 @@ font-size:3.4rem;line-height:3.4rem; font-weight:100;}
 /*box_content_wrap*/
 .box_content_wrap {float:left; width:100%; padding-bottom: 80px;}
 .box_content {float:left;position:relative;width:50%;padding-bottom:50%;background:transparent 50%/cover no-repeat;}
+.box_content > a { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
 .box_content_wrap .box_content.box_1 {background-image: url(../img/mid1_1.jpg);}
 .box_content_wrap .box_content.box_2 {background-image: url(../img/mid1_2.jpg);}
 .box_content_wrap .box_content.box_3 {background-image: url(../img/mid1_3.jpg);}
@@ -68,10 +69,10 @@ font-size:3.4rem;line-height:3.4rem; font-weight:100;}
 .box_content .white {color:#fff;}
 .box_content .box_content_btn {position:absolute; bottom:0;right:0; text-align: center; float:right; line-height:15px;
  color:#ffffff; font-size:1rem; font-weight:bold; background-color:#000; }
-.box_content .box_content_btn p{overflow: hidden; float:left; width:0; height:50px; line-height: 50px; white-space: nowrap; }
+.box_content .box_content_btn span{overflow: hidden; float:left; width:0; height:50px; line-height: 50px; white-space: nowrap; }
+.box_content:hover .box_content_btn span{width:130px; padding-left:20px; transition: width .5s ease; } 
 .box_content .box_content_btn::after{content:'+'; float:left; 
     box-sizing: border-box; width:50px; height:50px; font-size:1rem; line-height:50px;}
-.box_content:hover .box_content_btn p{width:130px; padding-left:20px; transition: width .5s ease; } 
 
 
 
