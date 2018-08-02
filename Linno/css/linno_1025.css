@@ -1,11 +1,11 @@
-@media screen and (min-width: 1279px){
+@media screen and (min-width: 1280px){
     .lang_item_wrap:hover .lang_kor{ box-sizing: border-box; border: 1px solid #a1a1a1; background-color: #fff;    }
     .lang_item_wrap:hover .lang_eng {box-sizing: border-box; border: 1px solid #a1a1a1; background-color: #fff; opacity:1; margin-top:-1px; }
 
 .lang_item_wrap:hover .lang_item_list{display: block;}
 }
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1280px){
     
     .header_inner {position: relative;}
     

@@ -1,5 +1,5 @@
 @media screen and (max-width: 1024px){
-    html {font-size: 15px;}
+    body {font-size: 15px;}
    
     .slide_text_wrap h1 { width:auto; display:block;}
     .slide_text_wrap h1 strong {float: none; display: block; width:auto;}
