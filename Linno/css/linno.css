@@ -38,7 +38,7 @@ text-align: center; box-sizing: border-box; border: 1px solid transparent; backg
 .container_inner { width:90%; margin:0 5%; padding-bottom:80px;}
 
 
-
+.slide_img {width:100%; height:auto;}
 .main_slide_wrap {position:relative; margin-bottom:80px;}
 .slide_text_wrap {position:absolute; right:0; top:5%; width:96%;left:2%; font-family: 'Montserrat', sans-serif;
 z-index:5;}
@@ -56,10 +56,10 @@ font-size:3.4rem;line-height:3.4rem; font-weight:100;}
 
 .bx-prev:hover, .bx-next:hover {opacity: 1; }
 
-#slide_btn_wrap { position:absolute; bottom:30px; }
+#slide_btn_wrap { position:absolute; bottom:2% }
 .slide_btn_inner > div {float:left; margin-left:10px;}
-.slide_btn { display:block; width:10px; height:10px;  border:2px solid #eee; border-radius:100%; cursor:pointer;} 
-.active { display:block; background-color:#ccc; border-radius: 100%; border:2px solid #eee; text-align: center;}
+.slide_btn { display:block; width:10px; height:10px;  border:0.12rem solid #eee; border-radius:100%; cursor:pointer;} 
+.active { display:block; background-color:#ccc; border-radius: 100%; border:0.13rem solid #eee; text-align: center;}
 
 
 
