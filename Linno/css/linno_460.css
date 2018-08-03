@@ -1,0 +1,16 @@
+
+    
+@media screen and (max-width: 460px){
+    html,body{font-size:13px;}
+    
+    .gnb .nav_lang .lang_kor,
+    .gnb .nav_lang .lang_eng {background-position: 20%;}
+    
+    .box_content .box_sub_title {letter-spacing: 0;}
+    .box_content .box_title_320 {top:120%;}
+    .project_mid_txt, .news_wrap .news_txt {text-align: center;}
+  
+    .distributors_box { width:100%;}
+    
+    .bot_nav {width:100%;}
+}
