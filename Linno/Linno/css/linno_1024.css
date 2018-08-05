@@ -1,0 +1,14 @@
+@media screen and (max-width: 1024px){
+    body {font-size: 15px;}
+   
+    .slide_text_wrap h1 { width:auto; display:block;}
+    .slide_text_wrap h1 strong {float: none; display: block; width:auto;}
+    .main_message {clear:both; display:block; width:auto;}
+    .box_content {width:auto;float:none;padding-bottom:80%; margin-bottom:50px;}
+    .distributors_wrap h1 {margin-bottom:20px;}
+    .distributors_box {width:50%; padding-top:50px;}
+    .bot_logo_wrap {display: block; width:auto;float:none;}
+    .bot_nav {width:25%; padding-top:50px; padding-left:0;}
+    .gnb .lang_kor, .gnb .lang_eng{background-position: 28%;}
+    
+}

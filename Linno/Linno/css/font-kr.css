@@ -1,0 +1,82 @@
+/*
+---------------------------------------------
+* Font: Noto Sans KR
+* License:
+* Version: 0.1.0 (Beta)
+* Description: 
+---------------------------------------------
+* CONTENTS
+* 1. KR
+---------------------------------------------
+*/
+
+/*
+---------------------------------------------
+* Noto Sans KR
+---------------------------------------------
+*/
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Thin.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Thin.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Thin.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Thin.otf') format('opentype');
+}
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Light.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Light.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Light.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Regular.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Regular.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Regular.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Medium.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Medium.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Medium.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Bold.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Bold.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Bold.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Bold.otf') format('opentype');
+}
+@font-face {
+    font-family:'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Black.eot');
+    src: local("?"),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Black.woff') format('woff'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Black.woff2') format('woff2'),
+        url('/wp-content/themes/linno-child/font/fonts/NotoSansCJKkr-hinted/NotoSans-Black.otf') format('opentype');
+}
+
+
