@@ -30,7 +30,7 @@
     .gnb .nav_main li a::after {display:none;}
     .gnb .nav_family {display: none; }
     .gnb .nav_lang {float: none; margin:0; }
-    .gnb .nav_lang .lang_kor { float:left; position: static; width:50%; margin:auto; padding:20px; background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold;   }
+    .gnb .nav_lang .lang_kor { float:left; position: static; width:50%; margin:auto; padding:20px; background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold;}
     .gnb .nav_lang .lang_kor::after {display: none; }
     .gnb .nav_lang .lang_eng { opacity: 1; float:left; position: static; width:50%; margin:auto; padding:20px;  background-color:#171717; background-position: 40%; color:#5d5d5d; font-weight: bold; transition: .3s;   }
     .gnb .nav_lang .lang_eng::after {display: none;}
