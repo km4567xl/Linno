@@ -4,7 +4,7 @@ jQuery(function($){
         $('.gnb').toggleClass('nav_btn_on');
     });
   
-      $('.com_mind_btn').hover(function(){
+      $('.com_mind_btn li').hover(function(){
           $(this).toggleClass('mind_btn_action');
       });
     
@@ -26,6 +26,7 @@ jQuery(function($){
     
     $('.ov_quality').click(function(){
         $('.ov_quality_wrap').css('opacity','1');
+    
         $('.ov_content_wrap > div').not('.ov_quality_wrap').css('opacity','0');
         $('.ov_wrap').css('padding-bottom',"70%");
      });
@@ -56,6 +57,44 @@ jQuery(function($){
         pagerCustom:'#slide_btn_wrap'
                 
     });
+    
+    
+    /*ov.btn 내용변경*/
+       $('.btn_satis').click(function(){
+        $('.mind_msg_satis').css('opacity','1');
+        
+           
+        $('.mind_msg > li').not('.mind_msg_satis').css('opacity','0');
+      });
+    
+    $('.com_mind_btn li').on('click',function(){
+        var targetId = $(this).attr('data-id');
+        
+        $('.mind_msg li').hide();
+        $('#'+targetId).show();
+    })
+    
+    /*
+     $('.btn_mark').click(function(){
+        $('.mind_msg_mark').css('opacity','1');
+        $('.mind_msg > li').not('.mind_msg_mark').css('opacity','0');
+      });
+    
+     $('.btn_sales').click(function(){
+        $('.mind_msg_sales').css('opacity','1');
+        $('.mind_msg > li').not('.mind_msg_sales').css('opacity','0');
+      });
+    
+     $('.btn_design').click(function(){
+        $('.mind_msg_design').css('opacity','1');
+        $('.mind_msg > li').not('.mind_msg_design').css('opacity','0');
+      });
+    
+     $('.btn_eco').click(function(){
+        $('.mind_msg_eco').css('opacity','1');
+        $('.mind_msg > li').not('.mind_msg_eco').css('opacity','0');
+      });
+*/
     
     
 })

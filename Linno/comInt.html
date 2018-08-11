@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Linno</title>
+    <title>Linno-회사소개</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
 
@@ -72,7 +72,7 @@
 
     <div class="container">
         <div class="container_inner">
-            <div class="com_main_visual">
+            <div class="com_main_visual clearfix">
                 <h1 class="com_title">회사소개</h1>
                 <div class="com_link_wrap">
                     <span class="com_link_text"><a href="index.html">HOME</a> / 회사소개</span>
@@ -82,7 +82,7 @@
 
             </div>
 
-            <div class="com_history_wrap">
+            <div class="com_history_wrap clearfix">
                 <div class="history_section">
                     <h1 class="title">HISTORY</h1>
                     <p class="history_section_message">6년 전, 저희 린노 팀은 100% 유통 및 판매를 할 수 있는 LED라인조명이라는 반짝이는 아이디어를 가지고 단결했습니다. 린노의 모든 제품은 모듈화(Modularity), 유통화, 저비용이라는 세가지 핵심 개념을 반영합니다.
@@ -136,7 +136,7 @@
                             <dd>– 경기도 남양주 공장 확장 설립</dd>
                         </dl>
                     </div>
-                </div>
+                </div><!--history_section-->
 
                 <div class="history_section">
                     <div class="history_content his_2013">
@@ -194,24 +194,30 @@
                             <dd>– LG하우시스 / 유진기업 에이전시 협약체결</dd>
                         </dl>
                     </div>
-                    <!--history_content-->
-                </div>
-                <!--history_section-->
+
+                    </div> <!--history_section-->
+                </div> <!--com_history_wrap-->
+
 
                 <div class="com_mind_wrap">
                     <h1 class="title">기업철학</h1>
-                    <ul>
-                        <li class="com_mind_btn fas fa-thumbs-up mind_btn_action"><span>고객 만족</span></li>
-                        <li class="com_mind_btn fas fa-chart-line "><span>마케팅</span></li>
-                        <li class="com_mind_btn fas fa-briefcase"><span>영업</span></li>
-                        <li class="com_mind_btn fas fa-palette"><span>디자인</span></li>
-                        <li class="com_mind_btn fas fa-tint"><span>친환경</span></li>
+                    <ul class="com_mind_btn clearfix">
+
+                        <li class="btn_satis fas fa-thumbs-up mind_btn_action " data-id="satisContent"><span>고객 만족</span></li>
+
+                        <li class="btn_mark fas fa-chart-line "><span>마케팅</span></li>
+
+                        <li class="btn_sales fas fa-briefcase"><span>영업</span></li>
+
+                        <li class="btn_design fas fa-palette"><span>디자인</span></li>
+
+                        <li class="btn_eco fas fa-tint"><span>친환경</span></li>
                     </ul>
-                </div>
+
 
                 <div class="com_mind_msg">
-                   <ul>
-                       <li class="mind_msg_satis">린노는 모든 품, 마케팅 및 영업판매 관련 요구 사항을 전부 한번에 충족해드릴 수 있습니다.
+                   <ul class="mind_msg">
+                       <li class="mind_msg_satis" id="satisContent">린노는 모든 품, 마케팅 및 영업판매 관련 요구 사항을 전부 한번에 충족해드릴 수 있습니다.
                         <br> 린노의 똑똑하고 야심차며 심지어 잘생긴* 디자이너들, 엔지니어, 세일즈팀 그리고 마케팅 전문가들이 처음부터 끝까지, 고객들에게 최고의 경험을 제공하기 위해 쉼없이 연구하고 있습니다.
                         <br> *보는 사람의 시각에 따라 다를 수 있습니다.</li>
                         
@@ -225,14 +231,14 @@
                    </ul>
                    
                 </div>
-            </div>
-            <!--com_history_wrap-->
-            <!--추가사항있음-->
 
-            <div class="com_show_wrap">
+            </div><!--com_mind_wrap-->
+
+
+            <div class="com_show_wrap ">
                 <h1 class="title">SHOW ROOM</h1>
-                <p>린노의 쇼룸에 오시면 린노의 혁신적인 제품 스토리와 디자인을 직접 경험할 수 있습니다.</p>
-                <div class="com_show_article">
+                <p class="sub_title">린노의 쇼룸에 오시면 린노의 혁신적인 제품 스토리와 디자인을 직접 경험할 수 있습니다.</p>
+                <div class="com_show_article clearfix">
                     <ul class="show_img">
                         <li>
                             <a href=""><img src="img/ComInt_img/show-room1.jpg" alt="#"></a>
@@ -254,7 +260,7 @@
             </div>
 
             <div class="ov_wrap">
-                <h1 class="title">OVERVIEW</h1>
+               <h1 class="title">OVERVIEW</h1>
                 <div class="ov_side_wrap">
                     <ul class="ov_side_menu">
                         <li class="ov_quality fas ov_btn_active">품질</li>
