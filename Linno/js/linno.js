@@ -26,10 +26,10 @@ jQuery(function($){
 
     
    $('.com_mind_wrap .com_mind_btn li').click(function(){
-       var tabIndex = $(this).index();
+       var mindTabIndex = $(this).index();
        $(this).addClass('mind_btn_action').siblings().removeClass('mind_btn_action');
-
-       $('.mind_msg li').hide().eq(tabIndex).show();
+     
+       $('.mind_msg li').hide().eq(mindTabIndex).show();
 
     });
 
