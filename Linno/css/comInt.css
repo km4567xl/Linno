@@ -28,15 +28,20 @@ html,body{font-size:16px;}
 .history_content dl {font-size:0.85rem; line-height:1.5}
 
 
+/*com_mind*/
 .com_mind_wrap {padding-bottom:30%; }
-.com_mind_btn li{float:left; width:20%; text-align: center;padding:45px 0 45px 0; font-size:2rem;  cursor:pointer; transition:.3s; border-bottom:4px solid #eee;}
-.com_mind_btn li span {display: block; font-size:1rem; margin-top:20px;  }
-.com_mind_btn li:hover {color:#00976c; border-color:#00976c;}
-.mind_btn_action {border-bottom:4px solid #00967c; color:#00976c;}
 
-.com_mind_msg {position:relative;text-align: center; font-size:0.9rem; padding-top:70px;}
-.com_mind_msg li {position:absolute; display:hidden;}
-.mind_msg_mark, .mind_msg_sales, .mind_msg_design, .mind_msg_eco {opacity:0;}
+.com_mind_btn li{display:block; float:left; width:20%; text-align: center; padding:45px 0 45px 0; font-size:2rem; cursor:pointer; transition:.3s;
+border-bottom:4px solid #eee;}
+.com_mind_btn li span {display: block; font-size:1rem; margin-top:20px;}
+.com_mind_btn li:hover {color:#00976c; border-color:#00976c;}
+.mind_btn_action {color:#00976c; border-color:#00976c; }
+
+.btn_mark {border-bottom:4px solid }
+
+.com_mind_msg {position:relative; text-align: center; font-size:0.9rem; padding-top:70px;}
+.com_mind_msg li {position:absolute;}
+.mind_msg > li ~ li {display:none;}
 
 
 
@@ -60,17 +65,17 @@ html,body{font-size:16px;}
 
 .ov_patent::after {content:'\f57e'; display:inline-block;position:absolute;right:20px; vertical-align: middle; font-size:1.5rem;}
 
-.ov_cert::after {content:'\f0a3'; display:inline-block;position:absolute; right:20px; vertical-align: middle; font-size:1.5rem;}
+.ov_cert::after {content:'\f0a3'; display:inline-block; position:absolute; right:20px; vertical-align: middle; font-size:1.5rem;}
 
 
 .ov_content_wrap {float:left; width:70%; padding:0 0 20px 40px; position: relative; }
 .ov_quality_wrap {position:absolute; transition: .3s; }
-.ov_patent_wrap {position:absolute; opacity:0;  transition: .3s;}
-.ov_cert_wrap {position: absolute; transition: .3s; opacity:0;}
+.ov_patent_wrap {position:absolute; transition: .3s;}
+.ov_cert_wrap {position: absolute; transition: .3s; }
 .ov_patent_wrap, .ov_cert_wrap {font-size:1rem; line-height: 2rem; font-weight: 400;}
 .quality_visual_img {padding-bottom:75%; position:relative; }
 .quality_visual_img li img{width:100%; position: absolute; top:0; transition:.6s;}
-
+.ov_content_wrap > div + div {display:none;}
 
 .ov_quality_img li {width:20%; padding:11px 8px 11px 0;
 -webkit-filter: brightness(0.65); }
